@@ -1,0 +1,21 @@
+{
+  "name": "homura-wrapper",
+  "version": "1.0.0",
+  "description": "LastFM API Wrapper",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LastFM",
+    "API",
+    "WRAPPER"
+  ],
+  "author": "Vergonha",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0"
+  }
+}
