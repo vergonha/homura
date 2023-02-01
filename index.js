@@ -1,4 +1,9 @@
 import Homura from './lib/homura.js'
 
 let i = new Homura()
-i.artist.search('Clai', 5).then(res => {console.log(res)})
+var l = await i.users.getTopTracks('atencioso', 'overall', 5).then(res => {return res.track})
+
+l.forEach(element => {
+    console.log(element.name)
+})
+
