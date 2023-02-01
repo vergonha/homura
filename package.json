@@ -1,5 +1,5 @@
 {
-  "name": "homura-wrapper",
+  "name": "homura-js",
   "version": "1.0.0",
   "description": "LastFM API Wrapper",
   "main": "index.js",
