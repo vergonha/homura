@@ -1,0 +1,25 @@
+{
+  "name": "homura-js",
+  "version": "1.2.0",
+  "description": "LastFM API Wrapper",
+  "main": "lib/homura.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --config ./jest.config.json"
+  },
+  "keywords": [
+    "LastFM",
+    "API",
+    "WRAPPER"
+  ],
+  "author": "Vergonha",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.4.1"
+  }
+}
