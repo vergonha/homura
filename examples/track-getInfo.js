@@ -1,6 +1,6 @@
 import Homura from '../lib/homura.js'
 
-const Wrapper = new Homura('YOUR API KEY', 'YOUR SECRET')
+const Wrapper = new Homura("YOUR API KEY")
 Wrapper.track.getInfo('4EVER', 'Clairo', 'Atencioso')
     .then(response => {
         console.log(`Name: ${response.track.name}`);

@@ -46,25 +46,17 @@ $ npm install homura-js
 
 ```javascript
 import Homura from 'homura-js';
-import dotenv from 'dotenv'
-dotenv.config()
 
-/*
-*Leave parentheses empty if you have .env 
-file with your API and Secret key, otherwise,
-follow the example below.* 
-*/
-
-const Wrapper = new Homura('API KEY', 'SECRET KEY');
+const Wrapper = new Homura("YOUR API KEY");
 let result = await Wrapper.artist.getTopTracks("Clairo", 5)
-result.forEach(track => {console.log(track.name)})
+result.toptracks.track.forEach(track => {console.log(track.name)})
 
 👉 Output: 
     - Sofia
     - Pretty Girl
     - Bags
     - Flaming Hot Cheetos
-    - 4EVER
+    - Harbor
 ```
 
 
@@ -72,6 +64,8 @@ result.forEach(track => {console.log(track.name)})
 
 You can test the Wrapper by running this command: 
 ```bash
+# Before running the tests, check that they have your API key.
+
 $ npm run test
 ```
 
