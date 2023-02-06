@@ -1,7 +1,7 @@
 
 # An API Wrapper for [LastFM API](https://www.last.fm/api#getting-started)
 
-A series of tools to facilitate interaction with the LastFM API. It uses your API Key as a form of authentication.
+A series of tools to facilitate interaction with the LastFM API. It uses YOUR API KEY as a form of authentication.
 
 ## Installation
 
@@ -42,6 +42,7 @@ $ npm install homura-js
 **Track**
 - `search()`: Search for a track by track name. Returns track matches sorted by relevance.
 - `getInfo()`: Get the metadata for a track on Last.fm using the artist/track name or a musicbrainz id.
+- `getSimilar()`: Get the similar tracks for this track on Last.fm, based on listening data.
 ## Example
 
 ```javascript
@@ -64,7 +65,7 @@ result.toptracks.track.forEach(track => {console.log(track.name)})
 
 You can test the Wrapper by running this command: 
 ```bash
-# Before running the tests, check that they have your API key.
+# Before running the tests, check that they have YOUR API KEY.
 
 $ npm run test
 ```
