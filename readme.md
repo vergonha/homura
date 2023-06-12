@@ -76,7 +76,7 @@ $ npm run test
 
 ## Security
 
-If you discover any security related issues, please send me a message on Discord - Seiku#0666.
+If you discover any security related issues, please send me a message on Discord: `inseguro`.
 
 ## License
 
