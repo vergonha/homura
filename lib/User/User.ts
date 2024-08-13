@@ -1,4 +1,4 @@
-import { Homura } from "../homura";
+import { Homura } from "../index";
 import type { Period } from "../helpers/interfaces/period";
 import type iUserGetFriendsResponse from "./interfaces/getFriends";
 import type iUserGetInfoResponse from "./interfaces/getInfo";
@@ -33,7 +33,7 @@ export default class User extends Homura {
     page?: string,
     from?: string,
     to?: string,
-    extended?: string,
+    extended?: string
   ) {
     return await this._fetch<iUserGetRecentTracksResponse>({
       method: "user.getRecentTracks",
@@ -50,7 +50,7 @@ export default class User extends Homura {
     user: string,
     period?: Period,
     limit?: string,
-    page?: string,
+    page?: string
   ) {
     return await this._fetch<iUserGetTopAlbumsResponse>({
       method: "user.getTopAlbums",
@@ -65,7 +65,7 @@ export default class User extends Homura {
     user: string,
     period?: Period,
     limit?: string,
-    page?: string,
+    page?: string
   ) {
     return await this._fetch<iUserGetTopTracksResponse>({
       method: "user.getTopTracks",

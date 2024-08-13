@@ -1,4 +1,4 @@
-import { Homura } from "../homura";
+import { Homura } from "../index";
 import type iArtistGetInfoResponse from "./interfaces/getInfo";
 import type iArtistGetSimilarResponse from "./interfaces/getSimilar";
 import type iArtistGetTopAlbumsResponse from "./interfaces/getTopAlbums";

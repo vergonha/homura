@@ -1,4 +1,4 @@
-import { Homura } from "../homura";
+import { Homura } from "../index";
 import type { Period } from "../helpers/interfaces/period";
 import type iUserGetFriendsResponse from "./interfaces/getFriends";
 import type iUserGetInfoResponse from "./interfaces/getInfo";

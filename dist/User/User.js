@@ -62,7 +62,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var homura_1 = require("../homura");
+var index_1 = require("../index");
 var User = /** @class */ (function (_super) {
     __extends(User, _super);
     function User(key) {
@@ -122,5 +122,5 @@ var User = /** @class */ (function (_super) {
         });
     };
     return User;
-}(homura_1.Homura));
+}(index_1.Homura));
 exports.default = User;
